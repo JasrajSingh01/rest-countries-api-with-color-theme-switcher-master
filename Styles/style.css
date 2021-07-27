@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  font-family: "Nunito Sans", sans-serif;
+  color: #111517;
+}
+
+.dark-body {
+  background-color: #202c37;
+  color: white;
+}
+
+.dark-body .container {
+  background-color: #2b3945;
+  color: white;
+}
+
+.dark-body .container .header-left p {
+  color: white;
+}
+
+.dark-body .container .header-right {
+  background-color: #2b3945;
+  color: white;
+}
+
+.dark-body .container .header-right p {
+  color: white;
+}
+
+.dark-body .container .header-right .btn-dark-mode {
+  background-color: #2b3945;
+  color: white;
+}
+
+.dark-body .container .header-right .btn-dark-mode .dark {
+  display: inline-block;
+}
+
+.dark-body .container .header-right .btn-dark-mode .light {
+  display: none;
+}
+
+.dark-body .container1 .search {
+  background-color: #2b3945;
+  color: white;
+}
+
+.dark-body .container1 .search input {
+  color: white;
+}
+
+.dark-body .container1 .dropdown {
+  background-color: #2b3945;
+  color: white;
+}
+
+.dark-body .container2 .country-header {
+  background-color: #2b3945;
+  color: white;
+}
+
+.dark-body .container2 .country-body {
+  background-color: #2b3945;
+}
+
+.dark-body .container2 .country-body h3 {
+  color: white;
+}
+
+.dark-body .container2 .country-body p {
+  color: white;
+}
+
+.dark-body .container2 .country-body strong {
+  color: white;
+}
+
+.container {
+  padding: 20px 50px;
+  position: relative;
+  z-index: 1;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.19), 0 0 0 rgba(0, 0, 0, 0.23);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.19), 0 0 0 rgba(0, 0, 0, 0.23);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 18px;
+}
+
+header .header-left {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+header .header-right .btn {
+  font-size: 18px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+header .header-right .btn img {
+  width: 3%;
+  padding: 5px;
+}
+
+header .header-right .btn .dark {
+  display: none;
+}
+
+.container1 {
+  padding: 20px 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container1 .search {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24);
+  font-size: 14px;
+  padding: 25px;
+  min-width: 300px;
+}
+
+.container1 .dropdown {
+  border-radius: 5px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24);
+  font-size: 14px;
+  padding: 20px 50px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 150px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+
+.container1 .dropdown .dropdown-img {
+  width: 12%;
+}
+
+.container1 .dropdown .dropdown.open ul {
+  display: block;
+}
+
+.container1 .dropdown ul {
+  border-radius: 5px;
+  display: none;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24);
+  padding: 20px 0px 20px 0px;
+  list-style-type: none;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+}
+
+.container1 .dropdown ul li {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.container2 {
+  padding: 20px 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container2 .country {
+  cursor: pointer;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.container2 .country .country-header img {
+  max-width: 280px;
+}
+
+.container2 .country .country-body {
+  padding: 20px;
+}
+
+.container2 .country .country-body p {
+  padding: 5px 0;
+}
+/*# sourceMappingURL=style.css.map */

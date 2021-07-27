@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="Styles/style.css">
+    <script src="app.js" defer></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | REST Countries API</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <div class="header-left"><p>Where in the world?</p></div>
+            <div class="header-right">
+                <button class="btn btn-dark-mode" id="toggle">
+                    <img class="dark" src="images/moon-sharp.svg" alt="">
+                    <img class="light" src="images/moon-outline.svg" alt="">
+                    <p>Dark Mode</p>
+                </button>
+            </div>
+        </header>
+    </div>
+
+    <div class="container1">
+        <input class="search" id="search" type="text" placeholder="Search for a country">
+        <div class="dropdown">
+            Filter by Region
+            <img class="dropdown-img" src="images/chevron-down.svg" alt="dropdown">
+            <ul>
+                <li>Africa</li>
+                <li>America</li>
+                <li>Asia</li>
+                <li>Europe</li>
+                <li>Oceania</li>
+            </ul>
+        </div>
+    </div>
+
+    <section>
+        <div class="container2 countries" id="country">
+            <h2>Countries Loading...</h2>
+        </div>
+    </section>
+
+</body>
+
+</html>
