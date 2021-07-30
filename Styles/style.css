@@ -367,4 +367,33 @@ header .header-right .btn .fas {
           box-shadow: 0 0 10px #ccc;
   border: none;
 }
+
+@media only screen and (max-width: 375px) {
+  .container1 .search {
+    min-width: 240px;
+  }
+  .container1 .dropdown {
+    margin-top: 15px;
+  }
+  .modal .btn-close {
+    position: relative;
+    bottom: 0;
+    margin-bottom: 10px;
+  }
+  .modal .container3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .modal .container3 img {
+    max-width: 300px;
+  }
+  .modal .container3 .modal-body {
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */
