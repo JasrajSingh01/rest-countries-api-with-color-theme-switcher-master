@@ -58,6 +58,15 @@
   color: white;
 }
 
+.dark-body .container1 .dropdown ul {
+  background-color: #2b3945;
+}
+
+.dark-body .container1 .dropdown ul li {
+  background-color: #2b3945;
+  color: white;
+}
+
 .dark-body .container1 .open {
   background-color: #2b3945;
 }

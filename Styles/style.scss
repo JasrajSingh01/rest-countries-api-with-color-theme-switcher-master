@@ -83,6 +83,15 @@ $Nunito: "Nunito Sans", sans-serif;
       .dropdown {
         background-color: $Dark-Blue-Dark-Mode-Elements;
         color: $White-Dark-Mode-Text-Light-Mode-Elements;
+        
+        ul {
+          background-color: $Dark-Blue-Dark-Mode-Elements;
+  
+          li {
+          background-color: $Dark-Blue-Dark-Mode-Elements;
+          color: $White-Dark-Mode-Text-Light-Mode-Elements;
+          }
+        }
       }
 
       .open {
