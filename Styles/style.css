@@ -83,8 +83,26 @@
   color: white;
 }
 
-.dark-body .container3 .modal {
-  background-color: inherit;
+.dark-body .modal {
+  background-color: #2b3945;
+}
+
+.dark-body .modal .container3 .btn-close {
+  color: white;
+  -webkit-box-shadow: 0 0 10px #19222a;
+          box-shadow: 0 0 10px #19222a;
+}
+
+.dark-body .modal .container3 .modal-body h2 {
+  color: white;
+}
+
+.dark-body .modal .container3 .modal-body p {
+  color: white;
+}
+
+.dark-body .modal .container3 .modal-body strong {
+  color: white;
 }
 
 .container {
@@ -318,12 +336,14 @@ header .header-right .btn .dark {
 }
 
 .modal .btn-close {
-  padding: 5px 10px;
+  display: block;
+  padding: 10px 40px;
   position: absolute;
   background: none;
   cursor: pointer;
-  bottom: 500px;
-  left: 660px;
+  bottom: 400px;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
   border: none;
 }
 /*# sourceMappingURL=style.css.map */

@@ -9,6 +9,7 @@ $Dark-Gray-Light-Mode-Input: hsl(0, 0%, 52%);
 $Very-Light-Gray-Light-Mode-Background: hsl(0, 0%, 98%);
 $White-Dark-Mode-Text-Light-Mode-Elements: hsl(0, 0%, 100%);
 $White: #fff;
+$Dark-Box-Shadow: hsl(207, 26%, 13%);
 
 // FONTS
 
@@ -115,10 +116,31 @@ $Nunito: "Nunito Sans", sans-serif;
       }
     }
 
-    .container3 {
+    .modal {
+      background-color: $Dark-Blue-Dark-Mode-Elements;
+    
+      .container3 {
 
-      .modal {
-        background-color: inherit;
+        .btn-close {
+          color: $White-Dark-Mode-Text-Light-Mode-Elements;
+          box-shadow: 0 0 10px $Dark-Box-Shadow;
+        }
+
+        .modal-body {
+
+          h2 {
+            color: $White-Dark-Mode-Text-Light-Mode-Elements;
+          }
+
+          p {
+            color: $White-Dark-Mode-Text-Light-Mode-Elements;
+          }
+
+          strong {
+            color: $White-Dark-Mode-Text-Light-Mode-Elements;
+          }
+
+        }
       }
     }
   }
@@ -343,13 +365,14 @@ header {
   }
 
   .btn-close {
-    padding: 5px 10px;
+    display: block;
+    padding: 10px 40px;
     position: absolute;
     background: none;
     cursor: pointer;
-    bottom: 500px;
-    left: 660px;
-    // box-shadow: 0 2px 3px rgb(0 0 0 , 12%), 0 0 0 rgb(0 0 0 , 24%);
+    bottom: 400px;
+    box-shadow: 0 0 10px #ccc;
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(80, 80, 80, 0.19);
     border: none;
 
 
