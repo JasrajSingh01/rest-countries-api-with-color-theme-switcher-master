@@ -36,12 +36,17 @@
   color: white;
 }
 
-.dark-body .container .header-right .btn-dark-mode .dark {
+.dark-body .container .header-right .btn-dark-mode .fas {
   display: inline-block;
+  color: inherit;
 }
 
-.dark-body .container .header-right .btn-dark-mode .light {
+.dark-body .container .header-right .btn-dark-mode .far {
   display: none;
+}
+
+.dark-body .container .header-right .btn-dark-mode p {
+  padding-left: 10px;
 }
 
 .dark-body .container1 .search {
@@ -117,7 +122,7 @@
 .container {
   padding: 20px 50px;
   position: relative;
-  z-index: 1;
+  z-index: 150;
   background-color: white;
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.19), 0 0 0 rgba(0, 0, 0, 0.23);
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.19), 0 0 0 rgba(0, 0, 0, 0.23);
@@ -127,6 +132,8 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  z-index: 50;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -158,12 +165,11 @@ header .header-right .btn {
   cursor: pointer;
 }
 
-header .header-right .btn img {
-  width: 3%;
-  padding: 5px;
+header .header-right .btn .far {
+  padding: 10px;
 }
 
-header .header-right .btn .dark {
+header .header-right .btn .fas {
   display: none;
 }
 
@@ -230,8 +236,9 @@ header .header-right .btn .dark {
   cursor: pointer;
 }
 
-.container1 .dropdown .dropdown-img {
-  width: 12%;
+.container1 .dropdown .filter-down {
+  padding-left: 20px;
+  color: inherit;
 }
 
 .container1 .dropdown ul {
@@ -279,6 +286,7 @@ header .header-right .btn .dark {
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24);
           box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24);
   overflow: hidden;
+  max-width: 280px;
   margin-bottom: 40px;
 }
 
@@ -286,8 +294,11 @@ header .header-right .btn .dark {
   border: 1px solid transparent;
 }
 
-.container2 .country .country-header img {
-  max-width: 280px;
+.container2 .country .country-header .country-images {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+  max-width: 100%;
 }
 
 .container2 .country .country-body {
@@ -312,6 +323,7 @@ header .header-right .btn .dark {
 }
 
 .modal {
+  padding-top: 100px;
   display: none;
   position: fixed;
   background-color: #fff;
@@ -325,7 +337,7 @@ header .header-right .btn .dark {
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: 100;
+  z-index: 40;
 }
 
 .modal img {

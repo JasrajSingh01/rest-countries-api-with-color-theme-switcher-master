@@ -36,55 +36,9 @@ For the icons, you can use a font icon library. Don't worry if the icons that yo
 
 Some suggestions can be found below:
 
-- [Font Awesome](https://fontawesome.com)
+- [Font Awesome](https://fontawesome.com) 
+
+LINK (<script src="https://kit.fontawesome.com/1c7eabe450.js" crossorigin="anonymous"></script>)
+
 - [IcoMoon](https://icomoon.io)
 - [Ionicons](https://ionicons.com)
-
-
-
-
-
-
-<div class="country">
-                <div class="country-header">
-                    <img src="https://restcountries.eu/data/deu.svg" alt="Germany">
-                </div>
-                <div class="country-body">
-                    <h3>Germany</h3>
-                    <p><strong>Population: </strong>81,770,900</p>
-                    <p><strong>Region: </strong>Europe</p>
-                    <p><strong>Capital: </strong>Berlin</p>
-                </div>
-            </div>
-            <div class="country">
-                <div class="country-header">
-                    <img src="https://restcountries.eu/data/deu.svg" alt="Germany">
-                </div>
-                <div class="country-body">
-                    <h3>Germany</h3>
-                    <p><strong>Population: </strong>81,770,900</p>
-                    <p><strong>Region: </strong>Europe</p>
-                    <p><strong>Capital: </strong>Berlin</p>
-                </div>
-            </div>
-            <div class="country">
-                <div class="country-header">
-                    <img src="https://restcountries.eu/data/deu.svg" alt="Germany">
-                </div>
-                <div class="country-body">
-                    <h3>Germany</h3>
-                    <p><strong>Population: </strong>81,770,900</p>
-                    <p><strong>Region: </strong>Europe</p>
-                    <p><strong>Capital: </strong>Berlin</p>
-                </div>
-            </div>
-            <div class="country">
-                <div class="country-header">
-                    <img src="https://restcountries.eu/data/deu.svg" alt="Germany">
-                </div>
-                <div class="country-body">
-                    <h3>Germany</h3>
-                    <p><strong>Population: </strong>81,770,900</p>
-                    <p><strong>Region: </strong>Europe</p>
-                    <p><strong>Capital: </strong>Berlin</p>
-                </div>
